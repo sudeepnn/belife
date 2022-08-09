@@ -23,7 +23,7 @@ body{
     background-color: #F9F9F9;
     margin-top: 530px;
     position: absolute;
-    height: 700px;
+    height: 3250px;
     width: 100vw;
 }
 .fourthsem{
@@ -34,8 +34,17 @@ body{
     background-color: #EDD2F3;
     width: 50vw;
 }
+.nptl{
+    background-color: #EDD2F3;
+    margin-top: 500px;
+    border-radius: 20px;
+    
+    width: 50vw;
+    position: absolute;
+    left: 25vw;
+}
 .fifthsem{
-    margin-top: 300px;
+    margin-top: 260px;
     height: 180px;
     border-radius: 20px;
     position: absolute;
@@ -108,6 +117,9 @@ width: 650px;
         margin-top: 50px;
         height: 200px;
         width: 300px;
+    }
+    .space{
+        height: 4100px;
     }
     
 }
