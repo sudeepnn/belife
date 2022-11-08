@@ -8,12 +8,15 @@ body
     top: 0px;
     background-color: #4B5D67;
 }
+
 .heading
 {
+    position: absolute;
     margin-top: 0px;
     background-color: #A1CAE2;
     height: 100px;
-    width: 100vw;
+    width: 100%;
+    top: 0px;
 }
 .daa{
     text-align: center;
@@ -30,7 +33,12 @@ body
 {
     background-color: #D800A6;
 }
+.mid{
+    margin-top: 150px;
+    position: relative;
+}
 .daa1{
+   
     text-align: center;
     padding-top: 5px;
     width: 50vw;
@@ -56,4 +64,7 @@ body
     width: 100vw;
     position: relative;
     bottom: 0px;
+}
+#cns{
+    margin-top: 20px;
 }
