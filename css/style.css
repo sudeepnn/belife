@@ -1,0 +1,199 @@
+body{
+    margin:0px;
+    background-color: #bbe9f2;
+    text-align: center;
+    font-family: Sacramento,Arial, Helvetica, sans-serif;
+}
+.pic{
+    margin-top: 100px;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
+.heading{
+    margin-top: 0px;
+    background-color: #A1CAE2;
+    height: 100px;
+    width: 100vw;
+}
+.document{
+    height: 30px;
+    width: 30px;
+}
+.image{
+    background-color: white;
+    position:relative;
+    border-radius: 20px;
+    width: 100vw;
+}
+.space{
+    border-radius: 20px;
+    background-color: #3BC2D5;
+    margin-top: 530px;
+    position: absolute;
+    height: 900px;
+    width: 100vw;
+}
+.fourthsem{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 5px;
+    background-color: white;
+    width: 99%;
+    transition-duration: 1000ms;
+}
+.fourback
+{
+    height: 220px;
+    border-radius: 20px;
+    position: absolute;
+    left: 25vw;
+    background-color: #FBCB0A;
+    width: 50vw;
+    
+}
+.fifthsem{
+    margin-top: 10px;
+    height: 180px;
+    border-radius: 20px;
+    position: absolute;
+    left: 5px;
+    background-color: white;
+    width: 99%;
+    transition-duration: 1000ms;
+}
+.fifthbase
+{
+    margin-top: 260px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 25vw;
+    background-color: #FBCB0A;
+    width: 50vw;
+}
+.sixthsem{
+    margin-top: 10px;
+    height: 180px;
+    border-radius: 20px;
+    position: absolute;
+    left: 5px;
+    background-color: white;
+    width: 99%;
+    transition-duration: 1000ms;
+}
+.sixthbase
+{
+    margin-top: 500px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 25vw;
+    background-color: #FBCB0A;
+    width: 50vw;
+}
+
+
+.manual{
+    text-align: center;
+    padding-top: 5px;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    right: 25vw;
+    border-radius: 20px;
+    background-color: #6ECB63;
+    transition-duration: 1000ms;
+}
+.manual:hover
+{
+    background-color: #3E8E7E;
+}
+.basemain{
+    background-color: white;
+    height: 120px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+}
+.base{
+    margin-bottom: 0px;
+    background-color: #A1CAE2;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    bottom: 0px;
+}
+.daa{
+    text-align: center;
+    padding-top: 5px;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    right: 25vw;
+    border-radius: 20px;
+    background-color: #E4BAD4;
+    transition-duration: 1000ms;
+}
+.daa:hover
+{
+    background-color: #D800A6;
+}
+.daa1{
+    text-align: center;
+    padding-top: 5px;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    right: 25vw;
+    border-radius: 20px;
+    background-color: #6ECB63;
+    transition-duration: 1000ms;
+}
+.daa1:hover
+{
+    background-color: #3E8E7E;
+}
+.phimg{
+    height: 650px;
+width: 650px;
+}
+@media(max-width:1000px)
+{
+    .phimg{
+        height: 400px;
+    width: 400px;
+    }
+    .image{
+        position: fixed;
+        height: 400px;
+        width: 500px;
+    }
+    .pic
+    {
+        margin-top: 120px;
+        height: 200px;
+        width: 300px;
+    }
+    .space{
+        height: 1000px;
+    }
+    
+}
+.row{
+text-align: center;
+}
+#particles-js{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
