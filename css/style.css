@@ -31,29 +31,39 @@ a{
     width: 100vw;
 }
 .space{
+    align-items: center;
+    
     border-radius: 20px;
     background-color: #3BC2D5;
     margin-top: 530px;
     position: absolute;
-    height: 900px;
+    display: flex;
+    flex-direction: column;
+    height: 1600px;
     width: 100vw;
 }
 .fourthsem{
+    align-items: center;
+    justify-content: center;
     margin-bottom: 10px;
     margin-top: 10px;
     height: 200px;
     border-radius: 20px;
-    position: absolute;
+    
     left: 5px;
     background-color: white;
-    width: 99%;
+    width: 98%;
     transition-duration: 1000ms;
 }
 .fourback
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 220px;
     border-radius: 20px;
-    position: absolute;
+    margin-bottom: 10px;
+    margin-top: 10px;
     left: 25vw;
     background-color: #FBCB0A;
     width: 50vw;
