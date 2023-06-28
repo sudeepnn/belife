@@ -131,7 +131,7 @@ a{
     background-color: white;
     height: 120px;
     width: 100vw;
-    position: absolute;
+
     bottom: 0px;
 }
 .base{
@@ -194,7 +194,7 @@ width: 650px;
         width: 300px;
     }
     .space{
-        height: 1000px;
+        height: 1500px;
     }
     a{
         text-decoration: none;
